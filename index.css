@@ -664,8 +664,6 @@ html{
     }
     .Services-container{
         grid-template-columns: repeat(1,1fr) !important;
-        position: relative;
-       right: 1rem;
     }
     .web{
         position: relative;
@@ -704,4 +702,10 @@ html{
 }
 .Projects h2 a{
     color: var(--text-color);
+}
+@media(max-width:430px){
+.Services-container{
+    position: relative;
+    right:3rem;
+}
 }
