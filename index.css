@@ -705,7 +705,6 @@ html{
 }
 @media(max-width:430px){
 .Services-container{
-    position: relative;
-    right:3rem;
+  margin: 0px 2rem !important;
 }
 }
