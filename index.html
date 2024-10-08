@@ -137,15 +137,13 @@
     </section>
     <section class="contact" id="Contact">
         <h2 class="headings">Contact <span>ME</span></h2>
-        <form href="mailto:basmalaamr9@gmail.com" action="">
+        <form action="mailto:basmalaamr9@gmail.com" method="POST" enctype="text/plain">
             <div class="inputs">
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Enter your valid mail">
-            </div>
-            <div class="inputs2">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
-                <input type="submit" value="Send message" class="btn" >
+                    <input type="text" placeholder="Full Name"required>
+                    <input type="email" placeholder="Enter your valid mail" required>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your message"required></textarea>
+                <button type="submit"  class="btn">Send message</button>
             </div>
             </div>
         </form>
