@@ -675,3 +675,11 @@ html{
     }
 
 }
+@media(max-width:450px){
+    .About h3{
+        font-size: 25px !important;
+    }
+    .About {
+        padding: 10rem 1% 2rem !important;
+    }
+}
