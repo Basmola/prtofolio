@@ -539,13 +539,28 @@ html{
     font-size: 60%;
 }
 .Projects-item img{
-    width: 15rem !important;
-    height: 10rem !important;
+    width: 24rem !important;
+    height: 23rem !important;
+}
+.Projects-item h2{
+    font-size: 2.5rem !important;
+}
+.Projects-item p{
+    font-size: 1.5rem !important;
 }
 .Services-container{
     padding: 7rem !important;
     grid-template-columns: repeat(2,1fr) !important;
     margin: 0 5rem !important;
+}
+.About h3{
+    font-size: 20px !important;
+}
+.About {
+    padding: 10rem 1% 2rem !important;
+}
+.About .icons ul a{
+    padding: 10px !important;
 }
 }
 @media(max-width:991px){
@@ -707,4 +722,9 @@ html{
 .Services-container{
   margin: 0px 2rem !important;
 }
+}
+@media(max-width:351px){
+    .Services-container{
+        margin: 0px 11rem 0 0 !important;
+    }
 }
