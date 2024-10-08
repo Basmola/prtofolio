@@ -665,7 +665,7 @@ html{
     .Services-container{
         grid-template-columns: repeat(1,1fr) !important;
         position: relative;
-        right: 9%;
+       right: 1rem;
     }
     .web{
         position: relative;
